@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    tools:context=".SelectRollNo">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="32dp">
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="79dp"
+            android:src="@drawable/enrollment"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:id="@+id/logo_image"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pressuattend"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enrollment Informations"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="normal"/>
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Number Enrollment"
+            android:fontFamily="@font/poppins_regular"
+            android:inputType="number"
+            android:paddingBottom="10dp"
+            android:textColorHint="#999999"
+            android:backgroundTint="#CCCCCC"
+            android:layout_marginBottom="30dp"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Enter"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#003366"
+            android:textAllCaps="false"
+            android:background="@drawable/custom_button"
+            android:onClick="fn"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+</RelativeLayout>

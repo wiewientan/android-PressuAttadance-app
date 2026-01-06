@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "310949325880",
+    "project_id": "siesattendance-8ffd5",
+    "storage_bucket": "siesattendance-8ffd5.firebasestorage.app",
+    "firebase_url": "https://siesattendance-8ffd5-default-rtdb.firebaseio.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310949325880:android:8e1c1a1c7e4f6cc6428acd",
+        "android_client_info": {
+          "package_name": "com.example.siesattendance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdLbkTnEXfAV9tDqhQRiA3HieZX1WApyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

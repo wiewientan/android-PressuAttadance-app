@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.PressuAttend">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="PressuAttend"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AttendanceActivity"/>
+        <activity android:name=".AddStudentActivity" />
+        <activity android:name=".SubjectList" />
+        <activity android:name=".TeacherActivity" />
+        <activity android:name=".SelectRollNo" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".StudentInformationActivity" />
+        <activity android:name=".StudentLogin" />
+        <activity android:name=".TeacherLogin" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".EditStudentActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
